@@ -16,6 +16,6 @@ public class TestCelsiusToFahrenheitFail{
 	}
 	@Test
 	public void testeCelsiusToFahrenheitFail1(){
-		assertEquals( this.result, 50.1);
+		assertEquals( this.result, 50.0);
 	}
 }

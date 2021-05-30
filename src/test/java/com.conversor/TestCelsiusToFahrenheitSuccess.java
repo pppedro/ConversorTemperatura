@@ -12,10 +12,10 @@ public class TestCelsiusToFahrenheitSuccess{
 	@BeforeEach
 	public void setup(){
 		this.tc = new TemperatureConverter();
-		this.result = this.tc.celsiusToFahrenheit( 10);
+		this.result = this.tc.celsiusToFahrenheit( -273.15);
 	}
 	@Test
 	public void testeCelsiusToFahrenheitSucess1(){
-		assertEquals( this.result, 50.0);
+		assertEquals( this.result, -459.67);
 	}
 }
