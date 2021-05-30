@@ -8,6 +8,7 @@ public class TemperatureConverter{
 
 		fah = (1.8 * cel) + 32;
 
+		return fah;
 	}
 	public static void main( String[] args){
 		TemperatureConverter tc;
